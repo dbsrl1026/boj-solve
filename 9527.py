@@ -8,7 +8,7 @@ def dnc(x):
     if x <= 0:
         return 0
     jyo = int(math.log2(x))
-    floor_2pow = 2 ** jyo  # <= x 인 2의 ?승
+    floor_2pow = 2 ** jyo 
     if floor_2pow == x:
         return jyo * x // 2 + 1
 
